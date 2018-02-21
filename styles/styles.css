@@ -9,6 +9,17 @@ body {
   background: rgb(30, 30, 30);
   overflow: hidden;
 }
+button {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  border: none;
+  border-radius: 12px;
+  padding: 10px 24px;
+  margin: 5px auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 a {
   outline: 0;
   text-decoration: none;
@@ -28,7 +39,7 @@ a:hover {
 #info {
   color: rgb(0, 0, 0);
 }
-#footer {
+#copyright {
   font-size: 12px;
   position: fixed;
   text-align: right;
