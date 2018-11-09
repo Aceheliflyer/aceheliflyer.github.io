@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aceheliflyer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aceheliflyer.org
+  * I am aceheliflyer (https://keybase.io/aceheliflyer) on keybase.
+  * I have a public key ASDXrBU9gkX1nXTLXyHhiCzwNO6HOG_puebcrB7xfBghuAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b2e2319c7d5d27f4100a440e0fb046b9e6109e8d51167ed271786e513cf7bade0a",
+      "host": "keybase.io",
+      "kid": "0120d7ac153d8245f59d74cb5f21e1882cf034ee87386fe9b9e6dcac1ef17c1821b80a",
+      "uid": "dde072a30075e5c59918021244cf3d19",
+      "username": "aceheliflyer"
+    },
+    "merkle_root": {
+      "ctime": 1541773620,
+      "hash": "329177b7d80026c196142f78d9664159be539c4fc72bfbd227c5240f931cc29a0d17a02752362dd7c0e2ecb2be6e45e0b84128fb7b71eb482d2809f793047189",
+      "hash_meta": "bf1c806b7155e16dcc960ad8e3a92316b40f764fcd1a97245b68a681d264b27a",
+      "seqno": 3927074
+    },
+    "service": {
+      "entropy": "3Kpk4UcF+YBkwaxrXrvrX2F7",
+      "hostname": "aceheliflyer.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.9.0"
+  },
+  "ctime": 1541773637,
+  "expire_in": 504576000,
+  "prev": "48362d1366dee230aa730e6d2fec54faddd87969c478e2d413f0b8828eb7ef96",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg16wVPYJF9Z10y18h4Ygs8DTuhzhv6bnm3Kwe8XwYIbgKp3BheWxvYWTESpcCLcQgSDYtE2be4jCqcw5tL+xU+t3YeWnEeOLUE/C4go6375bEICTBX18KXlMH1t2uHYID182LkDgkq4fgFBgJJxpKIDZcAgHCo3NpZ8RA5rTaY0a/lht4q5h5jMHh8ZBVFIufAdNl98wePMGtL9o/Hc6oGxaDWrr+xxPeDm6GZvz33kldsL2QA2mGUtS7DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIK8CvBrG2YuExOaYgMa7SzWi/5igCVlZJyO3SaV/3Nk3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aceheliflyer
+
+==================================================================
