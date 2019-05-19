@@ -9,6 +9,7 @@ body {
   background: rgb(30, 30, 30);
   overflow: hidden;
 }
+
 button {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
@@ -20,29 +21,36 @@ button {
   text-decoration: none;
   display: inline-block;
 }
+
 a {
   outline: 0;
   text-decoration: none;
 }
+
 a:link, a:visited {
   color: rgb(255, 255, 255);
 }
+
 a:hover {
   color: rgb(130, 130, 130);
 }
+
 #img-border {
   height: 270px;
   width: 270px;
   border: 2.2px rgb(0, 0, 0) dashed;
   margin: 1px auto;
 }
+
 #info {
   color: rgb(0, 0, 0);
 }
+
 #copyright {
   font-size: 12px;
   position: fixed;
   text-align: right;
+  float: right;
   bottom: 10px;
   width: 98%;
 }
