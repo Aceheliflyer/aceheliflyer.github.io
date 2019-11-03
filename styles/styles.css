@@ -1,13 +1,10 @@
-body {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font: 16px sans-serif;
-  color: rgb(255, 255, 255);
+* {
   background: rgb(30, 30, 30);
-  overflow: hidden;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  font: 16px sans-serif;
 }
 
 button {
@@ -22,35 +19,21 @@ button {
   display: inline-block;
 }
 
-a {
-  outline: 0;
-  text-decoration: none;
-}
+/* Link Attributes */
+a { text-decoration: none; }
+a:link, a:visited { color: rgb(255, 255, 255); }
+a:hover { color: rgb(130, 130, 130); }
 
-a:link, a:visited {
-  color: rgb(255, 255, 255);
-}
-
-a:hover {
-  color: rgb(130, 130, 130);
-}
-
-#img-border {
+#avatar-border {
   height: 270px;
   width: 270px;
-  border: 2.2px rgb(0, 0, 0) dashed;
-  margin: 1px auto;
-}
-
-#info {
-  color: rgb(0, 0, 0);
+  /* border: 2.2px rgb(0, 0, 0) dashed; */
+  /* margin: 1px auto; */
 }
 
 #copyright {
   font-size: 12px;
-  position: fixed;
-  text-align: right;
-  float: right;
-  bottom: 10px;
-  width: 98%;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
 }
