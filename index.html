@@ -33,18 +33,36 @@
   <!-- Gif icon only works with FireFox. -->
   <link rel="icon" href="./images/Aceheliflyer.gif" type="image/gif">
   <link rel="stylesheet" href="./styles/styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.26/moment-timezone-with-data-10-year-range.min.js"></script>
 </head>
 
 <body>
   <center>
     <h1><a href="https://aceheliflyer.org">Aceheliflyer</a></h1>
+    <p id="time"></p>
+    <script>
+      setInterval(() => {
+        document.getElementById('time').innerHTML = moment.tz('America/New_York').format('dddd, MMMM Do<br>HH:mm (hh:mm A) z')
+      }, 500)
+    </script>
     <img id="avatar-border" src="./images/Aceheliflyer - Transparent Remake.png" alt="Aceheliflyer"><br>
     <div style="color: rgb(0, 0, 0)">
-      <a href="https://github.com/Aceheliflyer">GitHub</a> |
-      <a href="https://steamcommunity.com/profiles/76561198175161826">Steam</a> |
-      <a href="mailto:aceheliflyer@gmail.com">Email</a> |
-      <a href="https://t.me/Aceheliflyer">Telegram</a><br>
-      <a href="https://discordapp.com">Discord: <b>Aceheliflyer#0001</b></a>
+      <script>
+        [
+          ['Email', 'mailto:jarrett.aiken@achl.fr', false],
+          ['Telegram', 'https://t.me/Aceheliflyer', false],
+          ['Keybase', 'https://keybase.io/Aceheliflyer', false],
+          ['GitHub', 'https://github.com/Aceheliflyer', true],
+          ['Steam', 'https://steamcommunity.com/profiles/76561198175161826', false],
+          ['Discord: Aceheliflyer#0001', 'https://discordapp.com', false]
+        ].forEach((v, i, a) => {
+          var e
+          if (i + 1 !== a.length) { e = ' | ' } else { e = '' }
+          document.write(`<a href="${v[1]}">${v[0]}</a>${v[2] ? '<br>' : e}`)
+        })
+      </script>
     </div>
   </center>
 </body>
