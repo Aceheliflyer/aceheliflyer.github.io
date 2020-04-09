@@ -54,20 +54,19 @@
           ['Email', 'mailto:jarrett.aiken@achl.fr', false],
           ['Keybase', 'https://keybase.io/Aceheliflyer', false],
           ['Telegram', 'https://t.me/Aceheliflyer', false],
-          ['Mastodon', 'https://mastodon.social/@Aceheliflyer', true],
+          ['Mastodon', 'https://mastodon.social/@Aceheliflyer', true, 'rel="me"'],
           ['GitHub', 'https://github.com/Aceheliflyer', false],
           ['Steam', 'https://steamcommunity.com/profiles/76561198175161826', false],
           ['Discord: Aceheliflyer#0001', 'https://discordapp.com', false]
         ].forEach((v, i, a) => {
           var e
           if (i + 1 !== a.length) { e = ' | ' } else { e = '' }
-          document.write(`<a href="${v[1]}">${v[0]}</a>${v[2] ? '<br>' : e}`)
+          document.write(`<a ${v[3] ? `${v[3]} ` : ' '}href="${v[1]}">${v[0]}</a>${v[2] ? '<br>' : e}`)
         })
       </script>
     </div>
   </center>
 </body>
-
 <footer>
   <div id="copyright">
     <script>
