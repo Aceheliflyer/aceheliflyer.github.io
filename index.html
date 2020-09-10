@@ -28,7 +28,6 @@
   <meta property="twitter:description" content="Furry &amp; Computer Science Enthusiast">
   <meta property="twitter:image" content="./images/Aceheliflyer.gif">
   <meta property="twitter:url" content="https://achl.fr">
-  <a rel="me" href="https://mastodon.social/@Aceheliflyer"></a>
   <!-- End Meta Tags -->
 
   <!-- Gif icon only works with FireFox. -->
@@ -42,7 +41,9 @@
 <body>
   <center>
     <h1><a href="https://achl.fr">Aceheliflyer</a></h1>
-    <p id="time"></p>
+    <a href="https://time.is/Pittsburgh">
+      <p id="time"></p>
+    </a>
     <script>
       setInterval(() => {
         document.getElementById('time').innerHTML = moment.tz('America/New_York').format('dddd, MMMM Do<br>HH:mm (hh:mm A) z')
@@ -52,13 +53,12 @@
     <div style="color: rgb(0, 0, 0)">
       <script>
         [
-          ['Email', 'mailto:jarrett.aiken@achl.fr', false],
-          ['Keybase', 'https://keybase.io/Aceheliflyer', false],
+          ['Email', 'mailto:contact@achl.fr', false],
+          ['Matrix', 'https://matrix.to/#/@aceheliflyer:matrix.org', false],
           ['Telegram', 'https://t.me/Aceheliflyer', false],
-          ['Mastodon', 'https://mastodon.social/@Aceheliflyer', true, 'rel="me"'],
-          ['GitHub', 'https://github.com/Aceheliflyer', false],
+          ['GitHub', 'https://github.com/Aceheliflyer', true],
           ['Steam', 'https://steamcommunity.com/profiles/76561198175161826', false],
-          ['Discord: Aceheliflyer#0001', 'https://discordapp.com', false]
+          ['Discord: Aceheliflyer#0001', 'https://discord.com', false]
         ].forEach((v, i, a) => {
           var e
           if (i + 1 !== a.length) { e = ' | ' } else { e = '' }
